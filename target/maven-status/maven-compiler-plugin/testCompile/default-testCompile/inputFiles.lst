@@ -1,0 +1,17 @@
+/Users/mehmetsmac/IdeaProjects/BankProject/src/test/java/com/bank/utilities/BrowserUtils.java
+/Users/mehmetsmac/IdeaProjects/BankProject/src/test/java/com/bank/step_definitions/LoginStepDefinitions.java
+/Users/mehmetsmac/IdeaProjects/BankProject/src/test/java/com/bank/step_definitions/Hooks.java
+/Users/mehmetsmac/IdeaProjects/BankProject/src/test/java/com/bank/pages/BasePage.java
+/Users/mehmetsmac/IdeaProjects/BankProject/src/test/java/com/bank/runner/FailedTestRunner.java
+/Users/mehmetsmac/IdeaProjects/BankProject/src/test/java/com/bank/pages/AccountActivityPage.java
+/Users/mehmetsmac/IdeaProjects/BankProject/src/test/java/com/bank/pages/PayBillsPage.java
+/Users/mehmetsmac/IdeaProjects/BankProject/src/test/java/com/bank/pages/AccountSummaryPage.java
+/Users/mehmetsmac/IdeaProjects/BankProject/src/test/java/com/bank/utilities/Driver.java
+/Users/mehmetsmac/IdeaProjects/BankProject/src/test/java/com/bank/pages/FindTransactionPage.java
+/Users/mehmetsmac/IdeaProjects/BankProject/src/test/java/com/bank/utilities/ConfigurationReader.java
+/Users/mehmetsmac/IdeaProjects/BankProject/src/test/java/com/bank/step_definitions/FindTransactionStepDefs.java
+/Users/mehmetsmac/IdeaProjects/BankProject/src/test/java/com/bank/step_definitions/AddNewPayeeStepDefs.java
+/Users/mehmetsmac/IdeaProjects/BankProject/src/test/java/com/bank/runner/CukesRunner.java
+/Users/mehmetsmac/IdeaProjects/BankProject/src/test/java/com/bank/pages/LoginPage.java
+/Users/mehmetsmac/IdeaProjects/BankProject/src/test/java/com/bank/step_definitions/AccountActivityPageStepDefs.java
+/Users/mehmetsmac/IdeaProjects/BankProject/src/test/java/com/bank/step_definitions/PurchaseForeignCurrencyStepDefs.java

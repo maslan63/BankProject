@@ -1,0 +1,51 @@
+-------------------------------------------------------------------------------
+Test set: com.bank.runner.FailedTestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.094 s <<< FAILURE! - in com.bank.runner.FailedTestRunner
+Type(Find Transactions in Account Activity)  Time elapsed: 0.014 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'the user accesses the Find Transactions tab' and 9 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("the user accesses the Find Transactions tab")
+public void the_user_accesses_the_find_transactions_tab() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("clicks search")
+public void clicks_search() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("results table should show at least one result under Deposit")
+public void results_table_should_show_at_least_one_result_under_deposit() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("results table should show at least one result under Withdrawal")
+public void results_table_should_show_at_least_one_result_under_withdrawal() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user selects type “Deposit”")
+public void user_selects_type_deposit() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("results table should show no result under Withdrawal")
+public void results_table_should_show_no_result_under_withdrawal() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user selects type “Withdrawal”")
+public void user_selects_type_withdrawal() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("results table should show no result under Deposit")
+public void results_table_should_show_no_result_under_deposit() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
