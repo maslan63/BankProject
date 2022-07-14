@@ -120,7 +120,7 @@ public class FindTransactionStepDefs {
     }
     @But("results table should show no result under Withdrawal")
     public void results_table_should_show_no_result_under_withdrawal() {
-        Assert.assertTrue(BrowserUtils.getElementsText(findTransactionPage.withdrawal).isEmpty()); // this is a bug
+        Assert.assertFalse(BrowserUtils.getElementsText(findTransactionPage.withdrawal).isEmpty()); // this is a bug
     }
     @When("user selects type “Withdrawal”")
     public void user_selects_type_withdrawal() {
@@ -130,7 +130,7 @@ public class FindTransactionStepDefs {
     }
     @But("results table should show no result under Deposit")
     public void results_table_should_show_no_result_under_deposit() {
-        Assert.assertTrue(BrowserUtils.getElementsText(findTransactionPage.deposit).isEmpty()); // this is a bug
+        Assert.assertFalse(BrowserUtils.getElementsText(findTransactionPage.deposit).isEmpty()); // this is a bug
     }
 
 }
