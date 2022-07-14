@@ -1,4 +1,4 @@
-@smoke
+@regression
 Feature: Navigating to specific accounts in Accounts Activity
 
 Background:

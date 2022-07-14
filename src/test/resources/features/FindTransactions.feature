@@ -1,3 +1,4 @@
+@regression
 Feature: Find Transactions in Account Activity
 
 
@@ -30,7 +31,7 @@ Feature: Find Transactions in Account Activity
     And clicks search
     Then results table will not be shown
 
-  @wip
+
   Scenario: Type
     Given the user accesses the Find Transactions tab
     And clicks search
