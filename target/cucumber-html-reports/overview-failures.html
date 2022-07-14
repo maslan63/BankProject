@@ -77,7 +77,7 @@ $(document).ready(function() {
     <tr class="info">
       <td>Cucumber HTML Reports</td>
         <td>1</td>
-      <td>12 Jul 2022, 21:11</td>
+      <td>14 Jul 2022, 15:12</td>
     </tr>
   </tbody>
 </table>
@@ -117,24 +117,24 @@ $(document).ready(function() {
 <div class="element">
     <div class="indention">
       <b>Feature:</b>
-      <a href="report-feature_3192719625.html">Find Transactions in Account Activity</a>
+      <a href="report-feature_3328626812.html">Add new payee under pay bills</a>
     </div>
 
 
 <div class="tags indention">
     <b>Tags:</b>
-       <a href="report-tag_2149507997.html">@wip</a>
+       <a href="report-tag_2209936761.html">@memo</a>
 </div>
 
 
-  <span class="lead-duration duration">13.750</span>
+  <span class="lead-duration duration">10.058</span>
 
 
   <span data-toggle="collapse" class=" collapsable-control" data-target="#element-1">
 
 <div class="brief failed">
   <span class="keyword indention">Scenario</span>
-  <span class="name">Type</span>
+  <span class="name">Add a new payee</span>
 
 
      <i class="chevron fa fa-fw"></i>
@@ -165,7 +165,7 @@ $(document).ready(function() {
             <span class="keyword indention">Before</span>
               <span class="location name">com.bank.step_definitions.Hooks.setUp()</span>
 
-  <span class="lead-duration duration">10.331</span>
+  <span class="lead-duration duration">8.404</span>
 
           </div>
 
@@ -198,146 +198,11 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-Given passed">
+<div class="brief step-name-Given failed">
   <span class="keyword indention">Given</span>
-  <span class="name">the user accesses the Find Transactions tab</span>
+  <span class="name">Add New Payee tab</span>
 
-  <span class="lead-duration duration">12.963</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-And passed">
-  <span class="keyword indention">And</span>
-  <span class="name">clicks search</span>
-
-  <span class="lead-duration duration">0.143</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-Then passed">
-  <span class="keyword indention">Then</span>
-  <span class="name">results table should show at least one result under Deposit</span>
-
-  <span class="lead-duration duration">0.139</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-Then passed">
-  <span class="keyword indention">Then</span>
-  <span class="name">results table should show at least one result under Withdrawal</span>
-
-  <span class="lead-duration duration">0.064</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-When passed">
-  <span class="keyword indention">When</span>
-  <span class="name">user selects type &ldquo;Deposit&rdquo;</span>
-
-  <span class="lead-duration duration">0.191</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-Then failed">
-  <span class="keyword indention">Then</span>
-  <span class="name">results table should show at least one result under Deposit</span>
-
-  <span class="lead-duration duration">0.246</span>
+  <span class="lead-duration duration">10.057</span>
 
 </div>
 
@@ -349,17 +214,18 @@ $(document).ready(function() {
   <div class="inner-level">
     <div class="message indention">
       <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-4">
-          <a>org.openqa.selenium.StaleElementReferenceException:</a>
+          <a>org.openqa.selenium.NoSuchElementException:</a>
       </div>
       <div id="msg-4" class="collapse collapsable-details  in ">
-        <pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+        <pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#signin_button&quot;}
   (Session info: chrome=103.0.5060.114)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'mehmetsMacBookPro.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '11.0.12'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: /var/folders/ws/lqf464wn5r1...}, goog:chromeOptions: {debuggerAddress: localhost:50720}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: d00ac6e775337725e3f885bf5d33c486
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: /var/folders/ws/lqf464wn5r1...}, goog:chromeOptions: {debuggerAddress: localhost:51299}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9baae609a19cc1a31b7643dd7b7f24aa
+*** Element info: {Using=id, value=signin_button}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -370,11 +236,16 @@ Session ID: d00ac6e775337725e3f885bf5d33c486
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:166)
-	at com.bank.utilities.BrowserUtils.getElementsText(BrowserUtils.java:221)
-	at com.bank.step_definitions.FindTransactionStepDefs.results_table_should_show_at_least_one_result_under_deposit(FindTransactionStepDefs.java:107)
-	at &#10045;.results table should show at least one result under Deposit(file:///Users/mehmetsmac/IdeaProjects/BankProject/src/test/resources/features/FindTransactions.feature:40)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy22.click(Unknown Source)
+	at com.bank.pages.LoginPage.loginWithValidInfo(LoginPage.java:32)
+	at com.bank.step_definitions.AddNewPayeeStepDefs.add_new_payee_tab(AddNewPayeeStepDefs.java:21)
+	at &#10045;.Add New Payee tab(file:///Users/mehmetsmac/IdeaProjects/BankProject/src/test/resources/features/AddNewPayee.feature:5)
 </pre>
       </div>
     </div>
@@ -394,9 +265,9 @@ Session ID: d00ac6e775337725e3f885bf5d33c486
       <div class="step">
 
 
-<div class="brief step-name-But skipped">
-  <span class="keyword indention">But</span>
-  <span class="name">results table should show no result under Withdrawal</span>
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">creates new payee using following information</span>
 
   <span class="lead-duration duration">0.000</span>
 
@@ -408,33 +279,24 @@ Session ID: d00ac6e775337725e3f885bf5d33c486
 
 
 
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-When skipped">
-  <span class="keyword indention">When</span>
-  <span class="name">user selects type &ldquo;Withdrawal&rdquo;</span>
-
-  <span class="lead-duration duration">0.000</span>
-
-</div>
-
-
-
-
-
-
-
+          <table class="step-arguments">
+              <tr>
+                  <td>Payee Name</td>
+                  <td>The Law Offices of Hyde, Price &amp; Scharks</td>
+              </tr>
+              <tr>
+                  <td>Payee Address</td>
+                  <td>100 Same st, Anytown, USA, 10001</td>
+              </tr>
+              <tr>
+                  <td>Account</td>
+                  <td>Checking</td>
+              </tr>
+              <tr>
+                  <td>Payee Details</td>
+                  <td>XYZ account</td>
+              </tr>
+          </table>
 
 
 
@@ -450,34 +312,7 @@ Session ID: d00ac6e775337725e3f885bf5d33c486
 
 <div class="brief step-name-Then skipped">
   <span class="keyword indention">Then</span>
-  <span class="name">results table should show at least one result under Withdrawal</span>
-
-  <span class="lead-duration duration">0.000</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-But skipped">
-  <span class="keyword indention">But</span>
-  <span class="name">results table should show no result under Deposit</span>
+  <span class="name">message The new payee The Law Offices of Hyde, Price &amp; Scharks was successfully created. should be displayed</span>
 
   <span class="lead-duration duration">0.000</span>
 
@@ -524,7 +359,7 @@ Session ID: d00ac6e775337725e3f885bf5d33c486
             <span class="keyword indention">After</span>
               <span class="location name">com.bank.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">0.179</span>
+  <span class="lead-duration duration">0.622</span>
 
           </div>
 
@@ -537,13 +372,13 @@ Session ID: d00ac6e775337725e3f885bf5d33c486
   <div class="embedding indention">
     <div data-toggle="collapse" data-target="#embedding-6" class="collapsable-control">
       <a>screenshot</a>
-      <a href="embeddings/embedding_787561808.png" download target="_blank">
+      <a href="embeddings/embedding_-296363413.png" download target="_blank">
         <span class="download-button glyphicon glyphicon-download-alt"></span>
       </a>
     </div>
     <div id="embedding-6" class="collapse collapsable-details ">
       <div class="embedding-content">
-        <img src="embeddings/embedding_787561808.png">
+        <img src="embeddings/embedding_-296363413.png">
       </div>
     </div>
   </div>

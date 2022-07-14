@@ -13,7 +13,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features" ,
         glue = "com/bank/step_definitions",
         dryRun = false,
-        tags = "@regression"
+        tags = "@Regression"
 )
 public class CukesRunner {
 }

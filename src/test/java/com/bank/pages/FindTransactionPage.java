@@ -44,12 +44,17 @@ public class FindTransactionPage extends BasePage {
     @FindBy(id = "aa_type")
     public WebElement type;
 
+    @FindBy(xpath = "//*[@id=\"tabs\"]/ul/li[2]/a")
+    public WebElement findTransaction;
+
     public void types(String text){
         Select types = new Select(type);
 
         types.selectByValue(text);
 
     }
+
+
     //
 
 

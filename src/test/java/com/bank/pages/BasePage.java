@@ -26,9 +26,9 @@ public class BasePage {
     public void goToHeadersPage(String headers){
         onlineBanking.click();
         BrowserUtils.waitFor(2);
-        for (WebElement webElement : headersLink) {
-            if (webElement.getText().equals(headers)) {
-                webElement.click();
+        for (int i = 0; i < headersLink.size(); i++) {
+            if(headersLink.get(i).getText().equals(headers)){
+                headersLink.get(i).click();
             }
         }
     }

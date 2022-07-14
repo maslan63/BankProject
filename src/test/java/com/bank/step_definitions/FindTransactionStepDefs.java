@@ -15,7 +15,8 @@ public class FindTransactionStepDefs {
     @Given("the user accesses the Find Transactions tab")
     public void the_user_accesses_the_find_transactions_tab() {
         findTransactionPage.goToHeadersPage("Account Activity");
-        findTransactionPage.accountSummaryLinks("Find Transactions").click();
+        BrowserUtils.waitFor(1);
+        findTransactionPage.findTransaction.click();
     }
     @When("the user enters description “ONLINE”")
     public void the_user_enters_description_online() {
@@ -37,6 +38,10 @@ public class FindTransactionStepDefs {
     @When("clicks search")
     public void clicks_search() {
         findTransactionPage.find.click();
+        BrowserUtils.waitFor(2);
+        findTransactionPage.fromDate.clear();
+        findTransactionPage.toDate.clear();
+        findTransactionPage.description.clear();
     }
 
     @Then("results table will not be shown")
@@ -48,15 +53,16 @@ public class FindTransactionStepDefs {
     @When("the user enters date range from {string} to {string}")
     public void theUserEntersDateRangeFromTo(String fromDate, String toDate) {
 
+        BrowserUtils.waitFor(2);
         findTransactionPage.fromDate.sendKeys(fromDate);
         findTransactionPage.toDate.sendKeys(toDate);
     }
     @Then("results table should only show transactions dates between {string} to {string}")
     public void resultsTableShouldOnlyShowTransactionsDatesBetweenTo(String fromDate, String toDate) {
 
-        List<String> list = BrowserUtils.getElementsText(findTransactionPage.dates);
-        for (String s : list) {
-            Assert.assertTrue(s.compareTo(fromDate)>=0 && s.compareTo(toDate) <=0);
+        List<String> actualElements = BrowserUtils.getElementsText(findTransactionPage.dates);
+        for (String str : actualElements) {
+            Assert.assertTrue(str.compareTo(fromDate) >= 0 && str.compareTo(toDate) <= 0);
         }
 
     }

@@ -1,3 +1,4 @@
+@Regression
 Feature: Purchase Foreign Currency
 
 
