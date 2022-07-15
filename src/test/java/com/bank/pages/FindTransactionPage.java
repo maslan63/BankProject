@@ -15,7 +15,7 @@ public class FindTransactionPage extends BasePage {
     }
 
 
-    @FindBy(xpath = "//*[@id='aa_description']")
+    @FindBy(xpath = "//input[@id='aa_description']")
     public WebElement description;
 
     @FindBy(xpath = "//button[.='Find']")

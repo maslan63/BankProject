@@ -17,6 +17,7 @@ public class FindTransactionStepDefs {
         findTransactionPage.goToHeadersPage("Account Activity");
         BrowserUtils.waitFor(1);
         findTransactionPage.findTransaction.click();
+        BrowserUtils.waitFor(1);
     }
     @When("the user enters description “ONLINE”")
     public void the_user_enters_description_online() {
