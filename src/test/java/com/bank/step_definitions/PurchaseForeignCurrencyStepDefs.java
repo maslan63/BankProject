@@ -1,6 +1,7 @@
 package com.bank.step_definitions;
 
 import com.bank.pages.PayBillsPage;
+import com.bank.utilities.BrowserUtils;
 import com.bank.utilities.Driver;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -16,6 +17,7 @@ public class PurchaseForeignCurrencyStepDefs {
     public void the_user_accesses_the_purchase_foreign_currency_cash_tab() {
 
         payBillsPage.purchaseCurrencyTab();
+        BrowserUtils.waitFor(1);
     }
     @Then("following currencies should be available")
     public void following_currencies_should_be_available(List<String> dataTable) {

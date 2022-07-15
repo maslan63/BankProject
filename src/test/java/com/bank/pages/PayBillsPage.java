@@ -49,7 +49,7 @@ public class PayBillsPage extends BasePage{
     @FindBy(id = "pc_currency")
     public WebElement dropDown;
 
-    @FindBy(id = "pc_amount")
+    @FindBy(xpath = "//input[@id='pc_amount']")
     public WebElement amount;
 
     @FindBy(id = "pc_calculate_costs")

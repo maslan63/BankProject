@@ -1,4 +1,4 @@
-
+@Regression
 Feature: Find Transactions in Account Activity
 
 
@@ -13,7 +13,7 @@ Feature: Find Transactions in Account Activity
     Then results table should only show transactions dates between "2012-09-02" to "2012-09-06"
     And the results table should only not contain transactions dated "2012-09-01"
 
-  @Regression
+
   Scenario: Search description
     Given the user accesses the Find Transactions tab
     When the user enters description “OFFICE”
