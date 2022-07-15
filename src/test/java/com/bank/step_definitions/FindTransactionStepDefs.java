@@ -42,6 +42,7 @@ public class FindTransactionStepDefs {
         findTransactionPage.fromDate.clear();
         findTransactionPage.toDate.clear();
         findTransactionPage.description.clear();
+        BrowserUtils.waitFor(1);
     }
 
     @Then("results table will not be shown")
@@ -88,9 +89,7 @@ public class FindTransactionStepDefs {
     @When("the user enters description “OFFICE”")
     public void the_user_enters_description_office() {
 
-        findTransactionPage.description.clear();
-        findTransactionPage.fromDate.clear();
-        findTransactionPage.toDate.clear();
+
         findTransactionPage.description.sendKeys("OFFICE");
     }
     @Then("results table should only show descriptions containing “OFFICE”")
@@ -106,6 +105,7 @@ public class FindTransactionStepDefs {
         BrowserUtils.waitFor(1);
         findTransactionPage.description.sendKeys("office");
         findTransactionPage.find.click();
+        BrowserUtils.waitFor(1);
         Assert.assertEquals("No results.",findTransactionPage.noResult.getText());
     }
 

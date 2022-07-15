@@ -37,7 +37,7 @@ body{padding:0;margin:0}.html-formatter{max-width:1600px;min-height:100vh;margin
 <div id="content">
 </div>
 <script>
-window.CUCUMBER_MESSAGES = [{"meta":{"protocolVersion":"18.0.0","implementation":{"name":"cucumber-jvm","version":"7.3.2"},"runtime":{"name":"Java HotSpot(TM) 64-Bit Server VM","version":"11.0.12+8-LTS-237"},"os":{"name":"Mac OS X"},"cpu":{"name":"x86_64"}}},{"testRunStarted":{"timestamp":{"seconds":1657825970,"nanos":990356000}}},{"testRunFinished":{"success":true,"timestamp":{"seconds":1657825970,"nanos":995120000}}}];
+window.CUCUMBER_MESSAGES = [{"meta":{"protocolVersion":"18.0.0","implementation":{"name":"cucumber-jvm","version":"7.3.2"},"runtime":{"name":"Java HotSpot(TM) 64-Bit Server VM","version":"11.0.12+8-LTS-237"},"os":{"name":"Mac OS X"},"cpu":{"name":"x86_64"}}},{"testRunStarted":{"timestamp":{"seconds":1657841369,"nanos":259339000}}},{"testRunFinished":{"success":true,"timestamp":{"seconds":1657841369,"nanos":270858000}}}];
 </script>
 <script>
 /*! For license information please see main.js.LICENSE.txt */
