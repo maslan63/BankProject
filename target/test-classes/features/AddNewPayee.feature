@@ -1,4 +1,4 @@
-
+@Regression
 Feature: Add new payee under pay bills
 
 
