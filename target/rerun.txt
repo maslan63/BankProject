@@ -1,4 +1,0 @@
-file:src/test/resources/features/FindTransactions.feature:5:17:25:35
-file:src/test/resources/features/AccountActivityNavigation.feature:8:13:18:24:30
-file:src/test/resources/features/AddNewPayee.feature:5
-file:src/test/resources/features/PurchaseForeignCurrency.feature:5:22:28
