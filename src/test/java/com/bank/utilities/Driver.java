@@ -70,31 +70,14 @@ public class Driver {
                     WebDriverManager.getInstance(SafariDriver.class).setup();
                     driverPool.set(new SafariDriver());
                     break;
-                case "remote-chrome":
+                case "remote_chrome":
+                    ChromeOptions chromeOptions = new ChromeOptions();
+                    chromeOptions.setCapability("platform", Platform.ANY);
                     try {
-                        // assign your grid server address
-                        String gridAddress = "184.72.65.24";
-                        URL url = new URL("http://" + gridAddress + ":4444/wd/hub");
-                        DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
-                        desiredCapabilities.setBrowserName("chrome");
-                        driver = new RemoteWebDriver(url, desiredCapabilities);
-                    } catch (Exception e) {
+                        driverPool.set(new RemoteWebDriver(new URL("http://184.72.65.24:4444/wd/hub"),chromeOptions));
+                    } catch (MalformedURLException e) {
                         e.printStackTrace();
                     }
-                    break;
-
-                case "remote-firefox":
-                    try {
-                        // assign your grid server address
-                        String gridAddress = "52.90.101.17";
-                        URL url = new URL("http://" + gridAddress + ":4444/wd/hub");
-                        DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
-                        desiredCapabilities.setBrowserName("firefox");
-                        driver = new RemoteWebDriver(url, desiredCapabilities);
-                    } catch (Exception e) {
-                        e.printStackTrace();
-                    }
-                    break;
             }
         }
         return driverPool.get();
